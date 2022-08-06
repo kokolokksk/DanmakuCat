@@ -1,0 +1,124 @@
+.danmuContainer {
+    background-color: moccasin;
+    align-items: center;
+    font-family: 'Consolas','zxfyyt','YouYuan';
+    font-weight: bolder;
+    width: 90vw;
+    height: 50px;
+    display: flex;
+    margin-left: 5vw;
+    margin-top: 5px;
+    margin-right: 5vw;
+    margin-bottom: 5px;
+ //   background-color: rgb(248, 248, 238);
+}
+.danmuContainerDark {
+  background-color: rgb(122, 107, 107);
+  align-items: center;
+  font-family: 'Consolas','zxfyyt','YouYuan';
+  font-weight: bolder;
+  width: 90vw;
+  height: 50px;
+  display: flex;
+  margin-left: 5vw;
+  margin-top: 5px;
+  margin-right: 5vw;
+  margin-bottom: 5px;
+//   background-color: rgb(248, 248, 238);
+}
+.giftContainer {
+  border: solid 1px teal;
+  text-shadow: 0 0 #489b6d;
+  align-items: center;
+  font-family: 'Consolas','zxfyyt','YouYuan';
+  width: 90vw;
+  height: 50px;
+  display: flex;
+  margin-left: 5vw;
+  margin-top: 5px;
+  margin-right: 5vw;
+  margin-bottom: 5px;
+ // background-color: rgb(248, 248, 238);
+}
+.gbContainer {
+  border: solid 1px teal;
+  text-shadow: 0 0 #489b6d;
+  align-items: center;
+  font-family: 'Consolas','zxfyyt','YouYuan';
+  width: 90vw;
+  height: 50px;
+  display: flex;
+  margin-left: 5vw;
+  margin-top: 5px;
+  margin-right: 5vw;
+  margin-bottom: 5px;
+ // background-color: rgb(248, 248, 238);
+}
+.comeinContainer{
+    margin-left: 5vw;
+   // background-color: transparent;
+    z-index: 2;
+    }
+.superChatContainer {
+  // border: solid 1px teal;
+  text-shadow: 0 0 #489b6d;
+  align-items: center;
+  font-family: 'Consolas','zxfyyt','YouYuan';
+  width: 90vw;
+  height: 50px;
+  display: flex;
+  margin-left: 5vw;
+  margin-top: 5px;
+  margin-right: 5vw;
+  margin-bottom: 5px;
+}
+.superChatContent {
+  margin-left: 2vw;
+  align-self: center;
+
+}
+.avatar {
+    margin-left: 2vw;
+    height: 5vh;
+    border-radius: 50%;
+}
+.avatarContainer {
+  display: contents;
+  position: relative;
+
+}
+.divider {
+  margin-left: 1vw !important;
+  margin-right: 1vw !important;
+  border-color: rgb(255, 100, 38) !important;
+  border-left-width: 1px !important;
+  border-style: dashed !important;
+}
+
+.dividerDark {
+  margin-left: 1vw !important;
+  margin-right: 1vw !important;
+  border-color: rgb(150, 50, 11) !important;
+  border-left-width: 1px !important;
+  border-style: dashed !important;
+}
+
+.fansAndNickname {
+    align-self: center;
+    font-size:smaller;
+    display: flex-root;
+    // background-color: lightgray;
+}
+.danmuContent {
+    margin-left: 0vw;
+    align-self: center;
+    // background-color: white;
+}
+.dmName{
+    font-family: "YouYuan";
+    font-size: 10pt;
+   // color: rgb(32, 32, 32);
+    z-index: 3;
+    transition: all 1s ease-in 0;
+    transform: translateY(2vh);
+      }
