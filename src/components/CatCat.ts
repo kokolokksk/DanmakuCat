@@ -21,7 +21,7 @@
 //     { name:'fansDisplay',type:'boolean' }
 
 import axios from 'axios';
-import { BiliBiliDanmu } from 'renderer/@types/catcat';
+import { BiliBiliDanmu } from '../@types/catcat';
 
 //     ]
 // const getConfigItem = () => {
@@ -500,12 +500,9 @@ async function setFace(danmu: any, proxyApi: boolean) {
     // https://api.live.bilibili.com/live_user/v1/Master/info?uid=${danmu.uid}
   })
     // eslint-disable-next-line func-names
-    // eslint-disable-next-line promise/always-return
     // eslint-disable-next-line @typescript-eslint/no-shadow
     // eslint-disable-next-line func-names
-    // eslint-disable-next-line promise/always-return
     .then(function (response1) {
-      // eslint-disable-next-line promise/always-return
       if (danmu) {
         if (proxyApi) {
           danmu.avatarFace = response1.data.face;
