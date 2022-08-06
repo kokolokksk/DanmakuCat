@@ -7,9 +7,9 @@ import {
   CSSTransition,
   Transition,
 } from 'react-transition-group';
-import { BiliBiliDanmu, MuaConfig } from 'renderer/@types/catcat';
-import BackgroundWave from 'renderer/components/BackgroundWave';
-import Titlebar from 'renderer/components/Titlebar';
+import { BiliBiliDanmu, MuaConfig } from '../@types/catcat';
+import BackgroundWave from '../components/BackgroundWave';
+import Titlebar from '../components/Titlebar';
 import { ColorModeContext, ColorModeProvider } from '@chakra-ui/react';
 import styles from '../styles/danmu.module.scss';
 import '../styles/dm_a.css';

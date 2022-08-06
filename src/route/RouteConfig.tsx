@@ -1,6 +1,6 @@
 import { useLocation } from 'react-router-dom';
-import DanmuWindow from 'renderer/pages/DanmuWindow';
-import Setting from 'renderer/pages/Setting';
+import DanmuWindow from '../pages/DanmuWindow';
+import Setting from '../pages/Setting';
 
 const RouteConfig = (_props: any) => {
   const location = useLocation();
