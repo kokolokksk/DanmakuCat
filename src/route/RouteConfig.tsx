@@ -9,7 +9,7 @@ const RouteConfig = (_props: any) => {
   // 视图配置
   const viewsConfig = (): any => {
     return {
-      notFind: <div />,
+      notFind: <Setting />,
       dmWindow: <DanmuWindow />,
       main: <Setting />,
     };

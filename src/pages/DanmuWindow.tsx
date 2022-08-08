@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import axios from 'axios';
 import { createStandaloneToast } from '@chakra-ui/toast';
-import { stringify } from 'querystring';
+import { stringify } from 'qs';
 import {
   TransitionGroup,
   CSSTransition,
@@ -107,8 +107,6 @@ class DanmuWindow extends React.Component {
       return '';
     });
     console.info(muaConfig);
-    // eslint-disable-next-line promise/catch-or-return
-    // eslint-disable-next-line promise/always-return
     // Promise.all(arr)
     //   .then((e) => {
     //     console.log(e);
@@ -327,7 +325,6 @@ class DanmuWindow extends React.Component {
           headers: { 'content-type': 'application/json' },
         })
           // eslint-disable-next-line func-names
-          // eslint-disable-next-line promise/always-return
           .then(function (response) {
             // console.log(response);
           })

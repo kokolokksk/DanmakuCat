@@ -14,7 +14,7 @@ const About = () => {
           </div>
           <div className={styles.item}>
             <div className={styles.name}>Author:</div>
-            <div className={styles.value}>{pack.author}</div>
+            <div className={styles.value}>{pack.author.name}</div>
           </div>
           <div className={styles.item}>
             <div className={styles.name}>Version:</div>

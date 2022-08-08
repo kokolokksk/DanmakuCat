@@ -20,22 +20,18 @@ const Setting = () => {
     axios
       .get(`https://api.live.bilibili.com/room/v1/Room/room_init?id=${num}`)
       // eslint-disable-next-line func-names
-      // eslint-disable-next-line promise/always-return
       .then(function (response) {
         // handle success
         console.log(response);
         const { uid } = response.data.data;
         axios.defaults.withCredentials = true;
         document.cookie = 'SESSDATA=xxxx';
-        // eslint-disable-next-line promise/no-nesting
         axios({
           url: `https://api.live.bilibili.com/live_user/v1/Master/info?uid=${uid}`,
         })
           // eslint-disable-next-line func-names
-          // eslint-disable-next-line promise/always-return
           // eslint-disable-next-line @typescript-eslint/no-shadow
           // eslint-disable-next-line func-names
-          // eslint-disable-next-line promise/always-return
           .then(function (response1) {
             console.log(response1);
             setCatConfigData({
@@ -100,7 +96,6 @@ const Setting = () => {
     const arr = catConfigItem.map((item) =>
       window.electron.store.get(item.name)
     );
-    // eslint-disable-next-line promise/catch-or-return
     Promise.all(arr).then((e) => {
       console.log(e);
       // eslint-disable-next-line array-callback-return
@@ -110,13 +105,10 @@ const Setting = () => {
           catConfigData[catConfigItem[index].name] = item;
         }
       });
-      // eslint-disable-next-line promise/always-return
       try {
         if (!catConfigData.clientId) {
-          // eslint-disable-next-line promise/no-nesting
           axios
             .get('https://db.loli.monster/cat/client/generateClientId')
-            // eslint-disable-next-line promise/always-return
             .then(function (response) {
               // handle success
               console.log(response);

@@ -5,9 +5,9 @@ import App from './App';
 import './styles/index.css';
 
 const root = createRoot(document.getElementById('root')!);
-window.danmuApi.mainProcessMessage((_event: any, value: any) => {
-  console.info(value);
-});
+// window.danmuApi.mainProcessMessage((_event: any, value: any) => {
+//   console.info(value);
+// });
 root.render(
   <ChakraProvider>
     <App />

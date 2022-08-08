@@ -59,7 +59,6 @@ const Danmu = (prop: any) => {
     // if (data.data.type === 4) {
 
     // }
-    // eslint-disable-next-line prettier/prettier
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return data?.data.type === 1 ? (
